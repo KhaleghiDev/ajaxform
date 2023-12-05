@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'iransans';
+    src:  url('./../fonts/IRANSansWeb.eot') format('eot'),
+          url('./../fonts/IRANSansWeb.woff') format('woff'),
+          url('./../fonts/IRANSansWeb.ttf') format('truetype');
+  }
+
+*{
+    font-family: iransans ,tahoma;
+    direction: rtl;
+    text-align: right;
+}
+.continer{
+    width: 80%;
+    margin: 0 auto;
+}
+input[type="text"],button{
+
+    line-height: 2rem;
+    padding: 0 30px;
+    border-radius: 5px;
+    border: 1px solid #81b7d0;
+    font-weight: bold;
+}
+.form-control{
+    width: 85%;
+}
+#resulte-tag{
+    margin-top: 25px;
+    border: 2px solid #81b7d0;
+    padding: 20px 15px;
+    border-radius: 5px;
+
+}
+span.error {
+    color: red;
+}
+span.success {
+    color: rgb(27, 180, 52);
+}
